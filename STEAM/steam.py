@@ -54,8 +54,8 @@ def consultar_jogo(app_id):
             preco_atual = f"R$ {preco_atual:.2f}".replace(".", ",")
 
         else:
-            preco_original = "Indisponível"
-            preco_atual = "Indisponível"
+            preco_original = "Gratuito"
+            preco_atual = "Gratuito"
             desconto = 0
 
         return {
